@@ -1,0 +1,780 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Счастье Видеть — Ночные линзы для детей и взрослых</title>
+  <meta name="description" content="Ночные ОК-линзы для безопасной коррекции зрения у детей с 6 лет. Результаты обследования, советы офтальмолога, запись к врачу." />
+  <meta name="theme-color" content="#0A1628" />
+  <meta property="og:title" content="Счастье Видеть — Ночные линзы для детей и взрослых" />
+  <meta property="og:description" content="Пока ваш ребёнок спит — линзы тихо работают. Утром он открывает глаза и видит мир сам." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ======================================
+     NAV
+====================================== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark">👁️</div>
+      <div class="logo-text-wrap">
+        <span class="logo-name">Счастье Видеть</span>
+        <span class="logo-tagline">Ассоциация офтальмологов</span>
+      </div>
+    </a>
+    <nav class="header-nav">
+      <a href="#how">Как это работает</a>
+      <a href="#zones">Результаты</a>
+      <a href="#clinics">Клиники</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#appointment" class="btn btn-header">Записаться ></a>
+    <button class="burger" id="burger" aria-label="Меню" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#how" onclick="closeMobileNav()">Как это работает</a>
+    <a href="#zones" onclick="closeMobileNav()">Результаты</a>
+    <a href="#clinics" onclick="closeMobileNav()">Клиники</a>
+    <a href="#faq" onclick="closeMobileNav()">FAQ</a>
+    <a href="#appointment" class="btn btn-header" onclick="closeMobileNav()">Записаться ></a>
+  </div>
+</header>
+
+<!-- ======================================
+     HERO
+====================================== -->
+<section class="hero">
+  <div class="hero-bg-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="pulse-dot"></span>
+      Для детей и всей семьи
+    </div>
+    <h1 class="hero-title">
+      Доброе утро —<br>
+      <em>без очков на тумбочке</em>
+    </h1>
+    <p class="hero-desc">
+      Пока ваш ребёнок видит сны, ночные линзы тихо работают.<br>
+      Утром он открывает глаза и видит мир сам — это и есть счастье.
+    </p>
+    <div class="hero-pills">
+      <span class="pill">🧒 Для детей с 6 лет</span>
+      <span class="pill">✅ Без операции</span>
+      <span class="pill">🔄 Полностью обратимо</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#appointment" class="btn btn-accent">Записаться к врачу ></a>
+      <a href="#how" class="btn btn-ghost">Как это работает</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <strong>2–4×</strong>
+        <span>медленнее прогрессирует миопия</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <strong>с 6 лет</strong>
+        <span>безопасное применение</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <strong>25+ лет</strong>
+        <span>метод применяется в мире</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     КАК РАБОТАЮТ НОЧНЫЕ ЛИНЗЫ
+====================================== -->
+<section class="section" id="how">
+  <div class="container">
+    <div class="section-label">Принцип действия</div>
+    <h2 class="section-heading">Как работают ночные линзы</h2>
+    <p class="section-sub">Три простых шага — пока ваш ребёнок спит, линза мягко исправляет фокус глаза. Утром линза снимается, а острое зрение остаётся на весь день.</p>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-icon">🌙</div>
+        <h3 class="step-title">Вечером — надеваем</h3>
+        <p class="step-desc">Перед сном ребёнок (или родитель) надевает линзу. Это не больно — ощущение лёгкого касания проходит за пару минут.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-icon">✨</div>
+        <h3 class="step-title">Ночью — работает сама</h3>
+        <p class="step-desc">За 7–10 часов сна линза мягко перераспределяет верхний слой клеток роговицы. Это полностью безопасно и абсолютно обратимо.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-icon">☀️</div>
+        <h3 class="step-title">Утром — снимаем</h3>
+        <p class="step-desc">Линза снимается, а зрение остаётся чётким на весь день. Школа, спорт, плавание — без очков и без ограничений.</p>
+      </div>
+    </div>
+    <div class="revert-note">
+      <span>ℹ️</span>
+      <span>Метод полностью обратим — если ребёнок перестанет носить линзы, форма роговицы плавно вернётся к исходной за 1–2 недели. Никаких операций, никаких рисков.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     СТАТИСТИКА
+====================================== -->
+<div class="stats-band">
+  <div class="container stats-inner">
+    <div class="stat-item">
+      <div class="stat-num">2–4?</div>
+      <div class="stat-label">медленнее прогрессирует миопия с ОК-линзами</div>
+    </div>
+    <div class="stat-div"></div>
+    <div class="stat-item">
+      <div class="stat-num">~30%</div>
+      <div class="stat-label">детей школьного возраста имеют проблемы со зрением</div>
+    </div>
+    <div class="stat-div"></div>
+    <div class="stat-item">
+      <div class="stat-num">50 000+</div>
+      <div class="stat-label">детей прошли обследование в рамках проекта</div>
+    </div>
+    <div class="stat-div"></div>
+    <div class="stat-item">
+      <div class="stat-num">5 лет</div>
+      <div class="stat-label">реализации проекта «Счастье видеть»</div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================================
+     РЕЗУЛЬТАТЫ ОБСЛЕДОВАНИЯ
+====================================== -->
+<section class="section section--light" id="zones">
+  <div class="container">
+    <div class="section-label">Результаты обследования</div>
+    <h2 class="section-heading">Найдите свою зону результата</h2>
+    <p class="section-sub">Посмотрите на цвет кружка на карточке вашего ребёнка и выберите зону ниже.</p>
+
+    <div class="zones-tabs" role="tablist">
+      <button class="zone-tab zone-tab--green active" id="tab-green" role="tab" aria-selected="true" aria-controls="panel-green" onclick="switchZone('green')">
+        <span class="zone-tab-dot dot-green"></span> Зелёная зона
+      </button>
+      <button class="zone-tab zone-tab--yellow" id="tab-yellow" role="tab" aria-selected="false" aria-controls="panel-yellow" onclick="switchZone('yellow')">
+        <span class="zone-tab-dot dot-yellow"></span> Жёлтая зона
+      </button>
+      <button class="zone-tab zone-tab--red" id="tab-red" role="tab" aria-selected="false" aria-controls="panel-red" onclick="switchZone('red')">
+        <span class="zone-tab-dot dot-red"></span> Красная зона
+      </button>
+    </div>
+
+    <div class="zone-panel active" id="panel-green" role="tabpanel">
+      <div class="zone-card zone-card--green">
+        <div class="zone-card-hdr">
+          <div class="zone-emoji">✅</div>
+          <div><div class="zone-tag-label">Зелёная зона</div><h3 class="zone-card-title">Зрение в норме</h3></div>
+        </div>
+        <p class="zone-card-desc">Отличная новость! Зрение вашего ребёнка соответствует возрастной норме. Соблюдайте простые правила гигиены зрения, чтобы сохранить его здоровым.</p>
+        <ul class="zone-list">
+          <li><span>📅</span><span><strong>Плановое обследование раз в год</strong> — посещайте офтальмолога ежегодно для контроля.</span></li>
+          <li><span>⏱️</span><span><strong>Правило 20-20-20</strong> — каждые 20 минут за экраном делайте 30-секундный перерыв, смотря вдаль.</span></li>
+          <li><span>📵</span><span><strong>Ограничьте экранное время</strong> — не более 1–2 часов в день для детей до 12 лет.</span></li>
+          <li><span>🌳</span><span><strong>Активный отдых на улице</strong> — 2+ часа на свежем воздухе в день снижают риск миопии.</span></li>
+        </ul>
+        <a href="#exercises" class="btn btn-zone-green">Смотреть упражнения для глаз</a>
+      </div>
+    </div>
+
+    <div class="zone-panel" id="panel-yellow" role="tabpanel">
+      <div class="zone-card zone-card--yellow">
+        <div class="zone-card-hdr">
+          <div class="zone-emoji">⚠️</div>
+          <div><div class="zone-tag-label">Жёлтая зона</div><h3 class="zone-card-title">Требуется коррекция</h3></div>
+        </div>
+        <div class="zone-alert zone-alert--yellow">⚡ Обратитесь к офтальмологу в течение 2–4 недель</div>
+        <p class="zone-card-desc">Выявлены признаки нарушения зрения, которые требуют коррекции. При своевременном обращении это хорошо поддаётся лечению.</p>
+        <ul class="zone-list">
+          <li><span>🗓️</span><span><strong>Запишитесь на полное обследование</strong> — офтальмолог проверит остроту зрения и подберёт коррекцию.</span></li>
+          <li><span>👓</span><span><strong>Подбор очков или контактных линз</strong> — правильная коррекция улучшает качество жизни ребёнка.</span></li>
+          <li><span>🔄</span><span><strong>Контроль раз в 6 месяцев</strong> — детское зрение меняется быстро, нужен регулярный контроль.</span></li>
+          <li><span>🌙</span><span><strong>Рассмотрите ночные линзы</strong> — эффективный безоперационный метод остановки роста близорукости.</span></li>
+        </ul>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="#appointment" class="btn btn-zone-red">🗓️ Записаться к врачу</a>
+          <a href="#exercises" class="btn btn-zone-outline">Упражнения</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="zone-panel" id="panel-red" role="tabpanel">
+      <div class="zone-card zone-card--red">
+        <div class="zone-card-hdr">
+          <div class="zone-emoji">🚨</div>
+          <div><div class="zone-tag-label">Красная зона</div><h3 class="zone-card-title">Требуется лечение</h3></div>
+        </div>
+        <div class="zone-alert zone-alert--red">🚨 СРОЧНО: Обратитесь к офтальмологу в течение 3–7 дней</div>
+        <p class="zone-card-desc">Результаты указывают на серьёзное нарушение зрения, требующее немедленного внимания. Ранняя помощь значительно улучшает прогноз.</p>
+        <ul class="zone-list">
+          <li><span>🏥</span><span><strong>Экстренная консультация офтальмолога</strong> — не позднее 3–7 дней с момента получения результатов.</span></li>
+          <li><span>🔬</span><span><strong>Расширенная диагностика</strong> — биомикроскопия, офтальмоскопия, измерение ВГД.</span></li>
+          <li><span>📞</span><span><strong>Экстренная линия проекта</strong> — свяжитесь с нами, мы поможем записаться к специалисту.</span></li>
+        </ul>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="#appointment" class="btn btn-zone-red" style="flex:1;">🚨 Записаться СРОЧНО</a>
+          <a href="tel:+998884850585" class="btn btn-zone-outline" style="flex:1;">📞 Позвонить сейчас</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     ПРЕИМУЩЕСТВА
+====================================== -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section-label">Преимущества</div>
+    <h2 class="section-heading">Почему родители выбирают ночные линзы</h2>
+    <p class="section-sub">Это не просто способ видеть лучше — это свобода для вашего ребёнка и спокойствие для вас</p>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">📉</div>
+        <h3 class="benefit-title">Останавливает рост близорукости</h3>
+        <p class="benefit-desc">По данным международных исследований, ОК-линзы замедляют прогрессирование миопии в 2–4 раза по сравнению с обычными очками.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🚫</div>
+        <h3 class="benefit-title">Никакой операции</h3>
+        <p class="benefit-desc">Лазерная коррекция возможна только с 18 лет и необратима. Ночные линзы — единственный полностью обратимый метод.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🌞</div>
+        <h3 class="benefit-title">Свобода днём</h3>
+        <p class="benefit-desc">Без очков на физкультуре, без линз в бассейне, без неудобств в спортивных секциях. Ребёнок живёт активно.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🎯</div>
+        <h3 class="benefit-title">Индивидуально под ваш глаз</h3>
+        <p class="benefit-desc">Каждая линза рассчитывается по цифровой топографии конкретного глаза. Никаких «примерочных наборов».</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">👨‍⚕️</div>
+        <h3 class="benefit-title">Под наблюдением врача</h3>
+        <p class="benefit-desc">Подбор, обучение, контрольные осмотры — всё в клиниках-партнёрах с сертифицированными офтальмологами.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">😌</div>
+        <h3 class="benefit-title">Меньше нагрузки на глаза</h3>
+        <p class="benefit-desc">Никаких дневных линз, которые сохнут к вечеру. Глаза отдыхают от средств коррекции 14–17 часов в сутки.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     СРАВНЕНИЕ МЕТОДОВ
+====================================== -->
+<section class="section section--dark" id="compare">
+  <div class="container">
+    <div class="section-label" style="background:rgba(255,255,255,.12);color:#fff;">Сравнение методов</div>
+    <h2 class="section-heading" style="color:#fff;">Ночные линзы vs очки, линзы и лазер</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,.65);">Что выбрать вашему ребёнку или вам — сравнение по главным критериям</p>
+    <div class="table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="th-hi"><div class="th-badge">? Ночные линзы</div></th>
+            <th>Очки</th>
+            <th>Дневные линзы</th>
+            <th>Лазер</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="td-lbl">Возраст применения</td><td class="td-hi">от 6 лет</td><td>любой</td><td>от 12 лет</td><td>только 18+</td></tr>
+          <tr><td class="td-lbl">Останавливает рост близорукости</td><td class="td-hi"><span class="yes">? да</span></td><td><span class="no">— нет</span></td><td><span class="partial">частично</span></td><td><span class="na">не прим.</span></td></tr>
+          <tr><td class="td-lbl">Можно отменить без последствий</td><td class="td-hi"><span class="yes">? полностью</span></td><td><span class="yes">да</span></td><td><span class="yes">да</span></td><td><span class="no">необратимо</span></td></tr>
+          <tr><td class="td-lbl">Хирургическое вмешательство</td><td class="td-hi"><span class="yes">нет</span></td><td><span class="yes">нет</span></td><td><span class="yes">нет</span></td><td><span class="no">да</span></td></tr>
+          <tr><td class="td-lbl">Свобода днём (спорт, плавание)</td><td class="td-hi"><span class="yes">? полная</span></td><td><span class="no">мешают</span></td><td><span class="partial">ограничено</span></td><td><span class="yes">? полная</span></td></tr>
+          <tr><td class="td-lbl">Сухость глаз днём</td><td class="td-hi"><span class="yes">нет</span></td><td><span class="yes">нет</span></td><td><span class="no">часто</span></td><td><span class="partial">возможна</span></td></tr>
+          <tr><td class="td-lbl">Срок службы пары</td><td class="td-hi">~1 год</td><td>2–3 года</td><td>от 1 дня</td><td>пожизненно</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     КОМУ ПОДХОДИТ
+====================================== -->
+<section class="section" id="whoisit">
+  <div class="container">
+    <div class="section-label">Показания</div>
+    <h2 class="section-heading">Кому подходят ночные линзы</h2>
+    <p class="section-sub">Главное — желание и готовность соблюдать гигиену. Финальное решение принимает врач</p>
+    <div class="audience-grid">
+      <div class="audience-card audience-card--primary">
+        <div class="audience-badge">⭐ Главный выбор</div>
+        <div class="audience-icon">🧒</div>
+        <h3 class="audience-title">Детям от 6 лет</h3>
+        <p class="audience-desc">Если зрение ребёнка ухудшается, ОК-линзы — лучший способ остановить рост близорукости. Школа, спорт, друзья — без очков.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-badge">Без операции</div>
+        <div class="audience-icon">🧑</div>
+        <h3 class="audience-title">Подросткам и взрослым</h3>
+        <p class="audience-desc">Альтернатива лазерной операции — без рисков и необратимых изменений. Особенно если вы ещё не достигли 18 лет.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-badge">Свобода движения</div>
+        <div class="audience-icon">🏃</div>
+        <h3 class="audience-title">Спортсменам и активным</h3>
+        <p class="audience-desc">Плавание, единоборства, танцы — линз нет днём, проблем нет тоже. Ценят родители детей, занимающихся профессионально.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     УПРАЖНЕНИЯ ДЛЯ ГЛАЗ
+====================================== -->
+<section class="section section--light" id="exercises">
+  <div class="container">
+    <div class="section-label">Профилактика</div>
+    <h2 class="section-heading">5 упражнений для здоровья глаз</h2>
+    <p class="section-sub">Выполняйте 2–3 раза в день. Каждое упражнение занимает всего 1–2 минуты.</p>
+
+    <div class="rule-card">
+      <div class="rule-nums">
+        <div class="rule-num"><div class="rn">20</div><div class="rl">минут</div></div>
+        <div class="rule-num"><div class="rn">20</div><div class="rl">секунд</div></div>
+        <div class="rule-num"><div class="rn">20</div><div class="rl">метров</div></div>
+      </div>
+      <div class="rule-body">
+        <h3>Правило 20-20-20</h3>
+        <p>Каждые 20 минут работы за экраном делайте перерыв на 20 секунд — смотрите на предмет на расстоянии 20 метров или в окно. Снимает усталость глаз.</p>
+      </div>
+    </div>
+
+    <div class="exercises-grid">
+      <div class="ex-card">
+        <div class="ex-icon">👁️</div>
+        <div class="ex-num">Упражнение 1</div>
+        <div class="ex-name">«Горячо-холодно»</div>
+        <p class="ex-desc">Моргание для увлажнения и расслабления глаз.</p>
+        <ol class="ex-steps">
+          <li>Зажмурьтесь изо всех сил на 3 секунды</li>
+          <li>Широко откройте глаза на 3 секунды</li>
+          <li>Помигайте часто и легко 15–20 раз</li>
+          <li>Повторите весь цикл 5 раз</li>
+        </ol>
+        <div class="ex-freq">🔁 2–3 раза в день</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-icon">🌀</div>
+        <div class="ex-num">Упражнение 2</div>
+        <div class="ex-name">«Восьмёрка»</div>
+        <p class="ex-desc">Движение глаз по траектории цифры 8.</p>
+        <ol class="ex-steps">
+          <li>Представьте перед собой большую цифру 8</li>
+          <li>Медленно «обводите» её взглядом по часовой стрелке</li>
+          <li>Затем против часовой стрелки</li>
+          <li>По 5 раз в каждую сторону</li>
+        </ol>
+        <div class="ex-freq">🔁 2–3 раза в день</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-icon">🙌</div>
+        <div class="ex-num">Упражнение 3</div>
+        <div class="ex-name">«Пальминг»</div>
+        <p class="ex-desc">Массаж и прогревание глаз теплом ладоней.</p>
+        <ol class="ex-steps">
+          <li>Потрите ладони друг о друга 20 секунд</li>
+          <li>Закройте глаза и накройте их тёплыми ладонями</li>
+          <li>Не давите на глаза — только тепло</li>
+          <li>Побудьте так 1–2 минуты</li>
+        </ol>
+        <div class="ex-freq">🔁 1–2 раза в день</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-icon">🎯</div>
+        <div class="ex-num">Упражнение 4</div>
+        <div class="ex-name">«Фокусировка»</div>
+        <p class="ex-desc">Тренировка хрусталика — переключение взгляда.</p>
+        <ol class="ex-steps">
+          <li>Поднесите палец на 30 см к лицу — 5 сек</li>
+          <li>Переведите взгляд на предмет в 3–5 метрах — 5 сек</li>
+          <li>Затем — на самый дальний предмет — 5 сек</li>
+          <li>Повторите цикл 10 раз</li>
+        </ol>
+        <div class="ex-freq">🔁 2–3 раза в день</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-icon">⚫</div>
+        <div class="ex-num">Упражнение 5</div>
+        <div class="ex-name">«Чёрная точка»</div>
+        <p class="ex-desc">Концентрация взгляда. Тренирует центральное зрение.</p>
+        <ol class="ex-steps">
+          <li>Нарисуйте точку 5 мм на бумаге</li>
+          <li>Держите на расстоянии 30 см от глаз</li>
+          <li>Смотрите на точку, не моргая, 30–60 сек</li>
+          <li>Закройте глаза и восстановите точку мысленно</li>
+        </ol>
+        <div class="ex-freq">🔁 1–2 раза в день</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     ПУТЬ ПАЦИЕНТА
+====================================== -->
+<section class="section" id="journey">
+  <div class="container">
+    <div class="section-label">Процесс</div>
+    <h2 class="section-heading">Путь от первого вопроса до чёткого зрения</h2>
+    <p class="section-sub">5 простых шагов с поддержкой врача на каждом этапе</p>
+    <div class="journey-steps">
+      <div class="journey-step">
+        <div class="js-num">1</div>
+        <div class="js-role">ВЫ</div>
+        <h4 class="js-title">Запись на консультацию</h4>
+        <p class="js-desc">Оставляете заявку или звоните — мы записываем вас в ближайшую клинику-партнёра.</p>
+      </div>
+      <div class="journey-arr">></div>
+      <div class="journey-step">
+        <div class="js-num">2</div>
+        <div class="js-role">КЛИНИКА</div>
+        <h4 class="js-title">Диагностика и топография</h4>
+        <p class="js-desc">Врач проводит цифровое сканирование глаза и определяет, подходят ли вам ОК-линзы.</p>
+      </div>
+      <div class="journey-arr">></div>
+      <div class="journey-step">
+        <div class="js-num">3</div>
+        <div class="js-role">ЛАБОРАТОРИЯ</div>
+        <h4 class="js-title">Изготовление под ваш глаз</h4>
+        <p class="js-desc">По цифровой карте вашей роговицы вытачиваются индивидуальные линзы. 7–10 дней.</p>
+      </div>
+      <div class="journey-arr">></div>
+      <div class="journey-step">
+        <div class="js-num">4</div>
+        <div class="js-role">КЛИНИКА</div>
+        <h4 class="js-title">Выдача и обучение</h4>
+        <p class="js-desc">Врач показывает, как надевать, снимать и ухаживать. Учим до полной уверенности.</p>
+      </div>
+      <div class="journey-arr">></div>
+      <div class="journey-step">
+        <div class="js-num">5</div>
+        <div class="js-role">КЛИНИКА</div>
+        <h4 class="js-title">Контрольные осмотры</h4>
+        <p class="js-desc">Через 1 день, неделю, месяц и далее — врач следит за результатом и комфортом.</p>
+      </div>
+    </div>
+    <div class="journey-note">
+      ℹ️ Все процедуры проводятся врачом клиники. Стоимость подбора, изготовления и сопровождения включена в единый пакет — никаких скрытых платежей.
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     ОТЗЫВЫ РОДИТЕЛЕЙ
+====================================== -->
+<section class="section section--light" id="reviews">
+  <div class="container">
+    <div class="section-label">Отзывы</div>
+    <h2 class="section-heading">Истории родителей</h2>
+    <p class="section-sub">Семьи, которые уже выбрали ночные линзы для своих детей</p>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <p class="review-text">«Дочь два года носила очки, минус только увеличивался. Через 6 месяцев на ночных линзах рост остановился. И главное — она больше не комплексует в школе.»</p>
+        <div class="review-author">
+          <div class="review-av">М</div>
+          <div><div class="review-name">Малика</div><div class="review-meta">мама Зарины, 11 лет · Ташкент</div></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <p class="review-text">«Сын занимается плаванием. С обычными линзами всегда были проблемы — теряются, сохнут. С ночными — он плавает свободно и видит чётко на дорожке.»</p>
+        <div class="review-author">
+          <div class="review-av">Д</div>
+          <div><div class="review-name">Дилшод</div><div class="review-meta">папа Алишера, 13 лет · Ташкент</div></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <p class="review-text">«Боялась за безопасность ребёнка — врач подробно всё объяснил, показал, как ухаживать. Уже год без проблем. Дочка сама надевает линзы вечером.»</p>
+        <div class="review-author">
+          <div class="review-av">Н</div>
+          <div><div class="review-name">Нилуфар</div><div class="review-meta">мама Камилы, 9 лет · Каракалпакстан</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     КЛИНИКИ
+====================================== -->
+<section class="section" id="clinics">
+  <div class="container">
+    <div class="section-label">Где получить</div>
+    <h2 class="section-heading">Найдите ближайшую клинику</h2>
+    <p class="section-sub">Подбор и выдача линз доступны в трёх клиниках сети DMClinic — эксклюзивного партнёра в Узбекистане</p>
+    <div class="clinics-grid">
+      <div class="clinic-card">
+        <div class="clinic-badge">ТАШКЕНТ · ЦЕНТРАЛЬНАЯ</div>
+        <h3 class="clinic-name">DMClinic — Центральная</h3>
+        <div class="clinic-info">
+          <div class="ci-row"><span>📍</span><span>ул. Буюк Ипак Йули, 376</span></div>
+          <div class="ci-row"><span>⏰</span><span>Пн–Сб: 08:00–20:00 · Вс: 08:00–17:00</span></div>
+          <div class="ci-row"><span>📞</span><a href="tel:+998781483030">+998 78 148 30 30</a></div>
+        </div>
+        <a href="https://goo.gl/maps/xHVwHSEMKm52" target="_blank" rel="noopener" class="btn btn-clinic">Открыть на карте ></a>
+      </div>
+      <div class="clinic-card">
+        <div class="clinic-badge">ТАШКЕНТ · ДАРХОН</div>
+        <h3 class="clinic-name">DMClinic — Дархон</h3>
+        <div class="clinic-info">
+          <div class="ci-row"><span>📍</span><span>Мирзо-Улугбекский р-н, 6-й проезд Ниёзбек Йули, 16</span></div>
+          <div class="ci-row"><span>⏰</span><span>Пн–Сб: 08:00–20:00 · Вс: 08:00–17:00</span></div>
+          <div class="ci-row"><span>📞</span><a href="tel:+998956090303">+998 95 609 03 03</a></div>
+        </div>
+        <a href="https://maps.app.goo.gl/v2AAJNmcmGYcmtMq5" target="_blank" rel="noopener" class="btn btn-clinic">Открыть на карте ></a>
+      </div>
+      <div class="clinic-card">
+        <div class="clinic-badge">КАРАКАЛПАКСТАН</div>
+        <h3 class="clinic-name">DMClinic — Беруний</h3>
+        <div class="clinic-info">
+          <div class="ci-row"><span>📍</span><span>Берунийский район, ул. Кат</span></div>
+          <div class="ci-row"><span>⏰</span><span>Пн–Сб: 08:00–20:00 · Вс: 08:00–17:00</span></div>
+          <div class="ci-row"><span>📞</span><a href="tel:+998615245003">+998 61 524 50 03</a></div>
+        </div>
+        <a href="https://goo.su/9fm3" target="_blank" rel="noopener" class="btn btn-clinic">Открыть на карте ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     FAQ
+====================================== -->
+<section class="section section--light" id="faq">
+  <div class="container">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-heading">Вопросы, которые задают родители</h2>
+    <p class="section-sub">Ответы на самые частые тревоги. Не нашли свой вопрос — задайте его при записи</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Безопасны ли ОК-линзы для моего ребёнка?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Да. Метод применяется в мире более 25 лет, в том числе у детей с 6 лет. Линзы изготавливаются из материалов с высокой кислородной проницаемостью — глаз дышит свободно во сне. Главное — соблюдение гигиены и регулярные осмотры у врача-партнёра.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>С какого возраста можно носить?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">С 6 лет — если ребёнок может сам или с вашей помощью надевать и снимать линзы. Большинство детей быстро учатся. Готовность определяет врач на консультации — это безболезненно и не страшно.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Как быстро виден результат?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Многие дети уже после первой ночи видят заметно чётче. Полная острота зрения стабилизируется за 1–2 недели регулярного ношения. Точные сроки зависят от исходной степени близорукости.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Это больно? Ребёнок будет чувствовать линзу во сне?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Боли нет. В первые несколько ночей возможно лёгкое ощущение присутствия линзы — обычно проходит за 5–15 минут после засыпания. Через 3–7 дней дети перестают замечать линзы совсем.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Правда ли, что линзы останавливают рост близорукости?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Да, это подтверждено десятками клинических исследований по всему миру. ОК-линзы замедляют прогрессирование миопии у детей в 2–4 раза по сравнению с обычными очками за счёт эффекта периферического дефокуса.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Что будет, если перестать носить линзы?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Эффект полностью обратим. За 1–2 недели без ношения роговица плавно возвращается к исходной форме — никаких последствий, никаких изменений. Вы всегда сохраняете возможность вернуться к очкам или другому методу коррекции.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Кому ОК-линзы не подойдут?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Противопоказания: острые воспаления глаз, синдром «сухого глаза» в тяжёлой форме, кератоконус, высокая степень астигматизма (свыше ?5.00 D), некоторые заболевания роговицы. Это определит врач на диагностике.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+          <span>Мой ребёнок в зелёной зоне, нужно ли идти к врачу?</span><span class="faq-ico">+</span>
+        </button>
+        <div class="faq-body">Да, раз в год рекомендуется плановое посещение офтальмолога — даже при нормальном зрении. Зелёная зона означает, что срочного обращения не требуется, но профилактический контроль необходим.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     ЗАПИСЬ
+====================================== -->
+<section class="section section--dark" id="appointment">
+  <div class="container">
+    <div class="section-label" style="background:rgba(255,255,255,.12);color:#fff;">Запись на приём</div>
+    <h2 class="section-heading" style="color:#fff;">Записаться к офтальмологу</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,.65);">Заполните форму — мы свяжемся с вами и поможем с записью в удобную клинику</p>
+
+    <div class="form-layout">
+      <div class="form-card">
+        <div id="form-content">
+          <div class="form-card-title">Оставьте заявку</div>
+          <p class="form-card-sub">Перезвоним в течение рабочего дня и подберём удобное время</p>
+
+          <form id="appointmentForm" name="appointment" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" novalidate onsubmit="submitForm(event)">
+            <input type="hidden" name="form-name" value="appointment" />
+            <div style="display:none;" aria-hidden="true"><input name="bot-field" /></div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="parentName">Имя родителя</label>
+                <input type="text" id="parentName" name="parentName" placeholder="Ваше имя" required />
+              </div>
+              <div class="form-group">
+                <label for="childName">Имя ребёнка</label>
+                <input type="text" id="childName" name="childName" placeholder="Имя ребёнка" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="phone" placeholder="+998 (__)___-__-__" required />
+              </div>
+              <div class="form-group">
+                <label for="childAge">Возраст</label>
+                <select id="childAge" name="childAge" required>
+                  <option value="" disabled selected>Выберите возраст</option>
+                  <option>3–5 лет</option>
+                  <option>6–7 лет</option>
+                  <option>8–10 лет</option>
+                  <option>11–13 лет</option>
+                  <option>14–17 лет</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Зона результата ребёнка</label>
+              <div class="zone-radio-group">
+                <input class="zone-radio" type="radio" name="zone" id="z-green" value="green" />
+                <label class="zone-radio-label zrl-green" for="z-green">🟢 Зелёная</label>
+                <input class="zone-radio" type="radio" name="zone" id="z-yellow" value="yellow" />
+                <label class="zone-radio-label zrl-yellow" for="z-yellow">🟡 Жёлтая</label>
+                <input class="zone-radio" type="radio" name="zone" id="z-red" value="red" />
+                <label class="zone-radio-label zrl-red" for="z-red">🔴 Красная</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Комментарий (необязательно)</label>
+              <textarea id="message" name="message" placeholder="Опишите ситуацию или задайте вопрос..."></textarea>
+            </div>
+
+            <div class="consent-row">
+              <input type="checkbox" id="consent" name="consent" required />
+              <label for="consent">Согласен(на) с обработкой персональных данных</label>
+            </div>
+
+            <button type="submit" class="btn btn-submit">Отправить заявку ></button>
+            <p class="privacy-note">🔒 Ваши данные защищены и не передаются третьим лицам</p>
+          </form>
+        </div>
+
+        <div class="form-success" id="formSuccess">
+          <div class="fs-icon">✅</div>
+          <h3>Заявка принята!</h3>
+          <p>Спасибо! Мы свяжемся с вами в течение рабочего дня для уточнения деталей записи.</p>
+          <a href="#exercises" class="btn btn-accent" style="margin-top:16px;">Посмотреть упражнения</a>
+        </div>
+      </div>
+
+      <div class="form-side">
+        <div class="form-side-block">
+          <h3>📞 Связаться с нами</h3>
+          <ul>
+            <li><a href="tel:+998884850585">+998 88 485 05 85</a><span>Горячая линия</span></li>
+            <li><a href="https://t.me/korishbaxti" target="_blank" rel="noopener">Telegram</a><span>Быстрый ответ</span></li>
+            <li><a href="mailto:info@korishbaxti.uz">info@korishbaxti.uz</a><span>Email проекта</span></li>
+          </ul>
+        </div>
+        <div class="form-side-block">
+          <h3>⏰ Часы работы</h3>
+          <p>Пн–Пт: 9:00–18:00<br>Сб: 10:00–14:00<br>Вс: выходной</p>
+        </div>
+        <div class="form-side-note">⏱️ Перезвоним в течение рабочего дня после получения заявки</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================
+     FOOTER
+====================================== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">👁️ Счастье Видеть</div>
+      <p>Ночные ОК-линзы для безопасной коррекции зрения у детей и взрослых.<br>Производство — Lens Pro, подбор — клиники-партнёры в Узбекистане.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <div class="fc-title">О методе</div>
+        <a href="#how">Как работают линзы</a>
+        <a href="#why">Почему мы</a>
+        <a href="#compare">Сравнение методов</a>
+        <a href="#faq">Вопросы родителей</a>
+      </div>
+      <div class="footer-col">
+        <div class="fc-title">Действия</div>
+        <a href="#zones">Результаты обследования</a>
+        <a href="#appointment">Записаться</a>
+        <a href="#clinics">Найти клинику</a>
+        <a href="#exercises">Упражнения</a>
+      </div>
+      <div class="footer-col">
+        <div class="fc-title">Контакты</div>
+        <a href="tel:+998884850585">+998 88 485 05 85</a>
+        <a href="mailto:info@korishbaxti.uz">info@korishbaxti.uz</a>
+        <a href="https://t.me/korishbaxti" target="_blank" rel="noopener">Telegram</a>
+        <span>г. Ташкент</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Счастье видеть · korishbaxti.uz</span>
+    <span>Информация носит справочный характер и не заменяет консультацию врача</span>
+  </div>
+</footer>
+
+<!-- STICKY BOTTOM CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="#appointment" class="btn btn-accent">🗓️ Записаться к врачу</a>
+  <a href="#exercises" class="btn btn-ghost-sm">💪 Упражнения</a>
+</div>
+
+<!-- JAVASCRIPT -->
+<script src="script.js" defer></script>
+
+</body>
+</html>
