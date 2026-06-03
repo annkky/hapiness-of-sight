@@ -225,18 +225,36 @@ a  { color: inherit; text-decoration: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 168px;
   gap: 20px;
+}
+
+.site-header .logo-mark {
+  width: 152px;
+  height: 152px;
+  border-radius: 22px;
+  margin-left: -52px;
+  margin-top: -10px;
+}
+
+.site-header .logo {
+  margin-left: -98px;
 }
 
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .logo-mark {
-  width: 36px; height: 36px;
-  background: var(--accent);
-  border-radius: 10px;
+  width: 52px; height: 52px;
+  background: transparent;
+  border-radius: 12px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.2rem;
+  overflow: hidden;
   flex-shrink: 0;
+}
+.logo-mark img,
+.about-logo-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .logo-name {
   font-family: var(--font-heading);
@@ -895,7 +913,11 @@ a  { color: inherit; text-decoration: none; }
   border: 1px solid rgba(255,255,255,.1);
   border-radius: var(--radius);
 }
-.about-logo-mark { font-size: 3rem; }
+.about-logo-mark {
+  width: 132px;
+  height: 132px;
+  overflow: hidden;
+}
 .about-logo-name { font-family: var(--font-heading); font-size: 1rem; font-weight: 800; color: var(--white); }
 .about-logo-sub { font-size: .75rem; color: rgba(255,255,255,.5); }
 .about-content-col { display: flex; flex-direction: column; gap: 16px; }
@@ -929,6 +951,7 @@ a  { color: inherit; text-decoration: none; }
 }
 .footer-brand { display: flex; flex-direction: column; gap: 14px; }
 .footer-logo { display: flex; align-items: center; gap: 10px; }
+.footer-logo-mark { width: 46px; height: 46px; }
 .footer-about { font-size: .85rem; color: rgba(255,255,255,.45); line-height: 1.65; }
 .footer-links { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
 .footer-col { display: flex; flex-direction: column; gap: 10px; }
